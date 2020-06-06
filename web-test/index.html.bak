@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>测试</title>
+		<link href = "styles/style.css" rel = "stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>我的测试页面</h1>
+		<p>测试</p>
+
+		<h2>圣人惠</h2>
+		<img src = "images/katou_megumi.jpg" alt = "加藤惠" width = 607.9 height = 859.5 />
+		
+		<h2>说明</h2>
+		<p>这是一个测试网页</p>
+		<ul>
+			<li>第一行</li>
+			<li>第二行</li>
+			<li>第三行</li>
+		</ul>
+		
+		<p><a href = "https://www.bilibili.com/bangumi/play/ep323022/" target = "_blank">路人女主的养成方法 bilibili</a></p>
+
+		<h2>黄图</h2>
+		<img src = "images/huangtu.png" alt = "团子黄图" width = 219 height = 664>
+
+		<button>切换用户</button>
+		<script src = "scripts/main.js" defer></script>
+	</body>
+</html>

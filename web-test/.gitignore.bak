@@ -1,0 +1,3 @@
+web-test/scripts/*.bak
+web-test/styles/*.bak
+web-test/*.bak

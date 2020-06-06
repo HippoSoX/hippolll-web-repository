@@ -1,0 +1,47 @@
+html {
+	/*注释*/
+	/*不能用//的注释*/
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #C2FEF4;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	padding: 20px 20px 20px 20px;
+	border: 2px solid black;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	text-shadow: 5px 5px 3px black;
+}
+
+h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
+}
