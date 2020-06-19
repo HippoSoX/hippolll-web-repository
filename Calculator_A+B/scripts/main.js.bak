@@ -1,0 +1,21 @@
+function calculate() {
+	//var form = document.getElementById("from1");
+	var A = document.getElementById("A").value;
+	var B = document.getElementById("B").value;
+	var C;
+	switch(document.getElementById("cal").value) {
+	case "+":
+		C=Number(A)+Number(B); //+号不知道为什么总是进行字符串拼接操作，所以加一个Number()
+		break;
+	case "-":
+		C=A-B;
+		break;
+	case "*":
+		C=A*B;
+		break;
+	case "/":
+		C=A/B;
+		break;
+	}
+	document.getElementById("answer").innerHTML="答案是"+C;
+}

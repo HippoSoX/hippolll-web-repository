@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<title>简单的计算器</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+		<script src="scripts/main.js"></script>
+	</head>
+	<body>
+		<h1>计算器</h1>
+		<p>请在文本框内输入数字并选择运算符，然后点提交</p>
+		<div>
+			<form id="form1">
+			<!--不写action属性，这个好像是提交给后端的，提交给js会打印js文件到屏幕上，不知道为什么-->
+			<input type="number" id="A" name="A">
+			<select id="cal" name="cal">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">×</option>
+				<option value="/">÷</option>
+			</select>
+			<input type="number" id="B" name="B">
+			</form>
+		</div>
+		<button onclick="calculate()" id="myButton">计算</button>
+		<p id="answer"></p>
+	</body>
+<html>
